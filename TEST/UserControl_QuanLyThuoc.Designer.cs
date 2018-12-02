@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControl_QuanLyThuoc));
@@ -40,6 +41,7 @@
             this.btnAdd = new Bunifu.Framework.UI.BunifuImageButton();
             this.btnEdit = new Bunifu.Framework.UI.BunifuImageButton();
             this.btnDelete = new Bunifu.Framework.UI.BunifuImageButton();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.panel_HienThi_QLBN.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnAdd)).BeginInit();
@@ -117,6 +119,7 @@
             this.txtTimKiem.Size = new System.Drawing.Size(373, 34);
             this.txtTimKiem.TabIndex = 0;
             this.txtTimKiem.text = "Bunifu TextBox";
+            this.toolTip1.SetToolTip(this.txtTimKiem, "Tìm kiếm");
             this.txtTimKiem.OnTextChange += new System.EventHandler(this.txtTimKiem_OnTextChange);
             // 
             // btnAdd
@@ -124,12 +127,13 @@
             this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(51)))), ((int)(((byte)(65)))));
             this.btnAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.Image")));
             this.btnAdd.ImageActive = null;
-            this.btnAdd.Location = new System.Drawing.Point(396, 32);
+            this.btnAdd.Location = new System.Drawing.Point(411, 32);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(50, 34);
             this.btnAdd.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnAdd.TabIndex = 2;
             this.btnAdd.TabStop = false;
+            this.toolTip1.SetToolTip(this.btnAdd, "Thêm");
             this.btnAdd.Zoom = 10;
             // 
             // btnEdit
@@ -137,12 +141,13 @@
             this.btnEdit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(51)))), ((int)(((byte)(65)))));
             this.btnEdit.Image = ((System.Drawing.Image)(resources.GetObject("btnEdit.Image")));
             this.btnEdit.ImageActive = null;
-            this.btnEdit.Location = new System.Drawing.Point(452, 32);
+            this.btnEdit.Location = new System.Drawing.Point(467, 32);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(50, 34);
             this.btnEdit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnEdit.TabIndex = 3;
             this.btnEdit.TabStop = false;
+            this.toolTip1.SetToolTip(this.btnEdit, "Sửa");
             this.btnEdit.Zoom = 10;
             // 
             // btnDelete
@@ -150,13 +155,15 @@
             this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(51)))), ((int)(((byte)(65)))));
             this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
             this.btnDelete.ImageActive = null;
-            this.btnDelete.Location = new System.Drawing.Point(508, 32);
+            this.btnDelete.Location = new System.Drawing.Point(523, 32);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(50, 34);
             this.btnDelete.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnDelete.TabIndex = 4;
             this.btnDelete.TabStop = false;
+            this.toolTip1.SetToolTip(this.btnDelete, "Xóa");
             this.btnDelete.Zoom = 10;
+            this.btnDelete.MouseHover += new System.EventHandler(this.btnDelete_MouseHover);
             // 
             // UserControl_QuanLyThuoc
             // 
@@ -193,5 +200,6 @@
         private Bunifu.Framework.UI.BunifuImageButton btnAdd;
         private Bunifu.Framework.UI.BunifuImageButton btnEdit;
         private Bunifu.Framework.UI.BunifuImageButton btnDelete;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }

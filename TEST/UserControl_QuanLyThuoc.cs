@@ -15,6 +15,8 @@ namespace TEST
         public UserControl_QuanLyThuoc()
         {
             InitializeComponent();
+            //toolTip1.Show("Xóa", btnDelete);
+
         }
 
         private void UserControl_QuanLyThuoc_Load(object sender, EventArgs e)
@@ -41,6 +43,14 @@ namespace TEST
         private void txtTimKiem_OnTextChange(object sender, EventArgs e)
         {
 
+        }
+
+        
+
+        private void btnDelete_MouseHover(object sender, EventArgs e)
+        {
+            //toolTip1.IsBalloon = true;
+            //toolTip1.Show("Xóa", btnDelete);
         }
     }
 }
