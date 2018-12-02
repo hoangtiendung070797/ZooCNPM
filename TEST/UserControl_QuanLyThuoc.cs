@@ -31,7 +31,7 @@ namespace TEST
             x = this.Width - txtTimKiem.Width;
             y = this.Width - txtTimKiem.Width - btnDelete.Width;
             z = this.Width - txtTimKiem.Width - btnDelete.Width - btnEdit.Width;
-            k= this.Width - txtTimKiem.Width - btnDelete.Width - btnEdit.Width - btnAdd.Width;
+            k = this.Width - txtTimKiem.Width - btnDelete.Width - btnEdit.Width - btnAdd.Width;
             txtTimKiem.Location = new Point(x, txtTimKiem.Location.Y);
             btnDelete.Location = new Point(y, btnDelete.Location.Y);
             btnEdit.Location = new Point(z, btnEdit.Location.Y);
