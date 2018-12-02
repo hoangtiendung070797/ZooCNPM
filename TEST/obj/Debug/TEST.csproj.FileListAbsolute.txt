@@ -61,3 +61,6 @@ C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.csproj.CopyComplete
 C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.exe
 C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.pdb
 >>>>>>> 5f7427ea1ae2611f44ea766d14c1abcc3f3cf825
+C:\Users\Administrator\Documents\ZooCNPM\TEST\bin\Debug\TEST.exe.config
+C:\Users\Administrator\Documents\ZooCNPM\TEST\obj\Debug\TEST.exe
+C:\Users\Administrator\Documents\ZooCNPM\TEST\obj\Debug\TEST.pdb

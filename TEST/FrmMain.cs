@@ -74,8 +74,7 @@ namespace TEST
         private void btnHeThong_Click(object sender, EventArgs e)
         {
             panel_Select.Top = btnHeThong.Top;
-        }
-
+        }       
         private void btnMenu_Click(object sender, EventArgs e)
         {
             // chú thích pannel_hienthi width = 1154
