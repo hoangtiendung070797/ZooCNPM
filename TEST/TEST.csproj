@@ -75,6 +75,12 @@
     <Compile Include="UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControl_QuanLyNhanVienBacSi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl_QuanLyNhanVienBacSi.Designer.cs">
+      <DependentUpon>UserControl_QuanLyNhanVienBacSi.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControl_QuanLyThuoc.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserControl1.resx">
       <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl_QuanLyNhanVienBacSi.resx">
+      <DependentUpon>UserControl_QuanLyNhanVienBacSi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControl_QuanLyThuoc.resx">
       <DependentUpon>UserControl_QuanLyThuoc.cs</DependentUpon>
