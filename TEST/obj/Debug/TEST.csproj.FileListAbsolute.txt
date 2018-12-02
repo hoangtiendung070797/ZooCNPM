@@ -27,6 +27,7 @@ C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.csproj.CopyComplete
 C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.exe
 C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.pdb
 C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.UserControl_QuanLyThuoc.resources
+<<<<<<< HEAD
 C:\Users\hoang\Documents\ZooCNPM\TEST\bin\Debug\TEST.exe.config
 C:\Users\hoang\Documents\ZooCNPM\TEST\bin\Debug\TEST.exe
 C:\Users\hoang\Documents\ZooCNPM\TEST\bin\Debug\TEST.pdb
@@ -43,3 +44,20 @@ C:\Users\hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.csproj.CoreCompileInputs.ca
 C:\Users\hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.csproj.CopyComplete
 C:\Users\hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.exe
 C:\Users\hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.pdb
+=======
+C:\Users\Than Hoang\Documents\ZooCNPM\TEST\bin\Debug\TEST.exe.config
+C:\Users\Than Hoang\Documents\ZooCNPM\TEST\bin\Debug\TEST.exe
+C:\Users\Than Hoang\Documents\ZooCNPM\TEST\bin\Debug\TEST.pdb
+C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.csprojAssemblyReference.cache
+C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.FormLogin.resources
+C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.FrmMain.resources
+C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.Properties.Resources.resources
+C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.temp.resources
+C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.UserControl1.resources
+C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.UserControl_QuanLyThuoc.resources
+C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.csproj.GenerateResource.cache
+C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.csproj.CoreCompileInputs.cache
+C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.csproj.CopyComplete
+C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.exe
+C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.pdb
+>>>>>>> 5f7427ea1ae2611f44ea766d14c1abcc3f3cf825
