@@ -53,3 +53,5 @@ C:\Users\hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.csproj.CoreCompileInputs.ca
 C:\Users\hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.csproj.CopyComplete
 C:\Users\hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.exe
 C:\Users\hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.pdb
+C:\Users\hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.Frm_AddThuoc.resources
+C:\Users\hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.Frm_EditThuoc.resources

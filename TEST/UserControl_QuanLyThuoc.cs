@@ -52,5 +52,17 @@ namespace TEST
             //toolTip1.IsBalloon = true;
             //toolTip1.Show("Xóa", btnDelete);
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            Frm_AddThuoc add = new Frm_AddThuoc();
+            add.Show();
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            Frm_EditThuoc edit = new Frm_EditThuoc();
+            edit.Show();
+        }
     }
 }

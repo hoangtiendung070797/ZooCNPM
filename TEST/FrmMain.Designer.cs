@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            BunifuAnimatorNS.Animation animation1 = new BunifuAnimatorNS.Animation();
+            BunifuAnimatorNS.Animation animation4 = new BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel_Title = new System.Windows.Forms.Panel();
@@ -37,7 +37,7 @@
             this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel_ChucNang = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel_NutMeNu = new System.Windows.Forms.Panel();
             this.btnMenu = new Bunifu.Framework.UI.BunifuImageButton();
             this.panel_Select = new System.Windows.Forms.Panel();
             this.btnHeThong = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -52,11 +52,12 @@
             this.panel_HienThi = new System.Windows.Forms.Panel();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.transition_Menu = new BunifuAnimatorNS.BunifuTransition(this.components);
+            this.btn_home = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel_Title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
             this.panel_ChucNang.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.panel_NutMeNu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).BeginInit();
             this.SuspendLayout();
             // 
@@ -122,8 +123,9 @@
             // 
             // panel_ChucNang
             // 
-            this.panel_ChucNang.Controls.Add(this.panel1);
             this.panel_ChucNang.Controls.Add(this.panel_Select);
+            this.panel_ChucNang.Controls.Add(this.btn_home);
+            this.panel_ChucNang.Controls.Add(this.panel_NutMeNu);
             this.panel_ChucNang.Controls.Add(this.btnHeThong);
             this.panel_ChucNang.Controls.Add(this.btnThanhToan);
             this.panel_ChucNang.Controls.Add(this.btnThongKe);
@@ -140,15 +142,15 @@
             this.panel_ChucNang.Size = new System.Drawing.Size(245, 634);
             this.panel_ChucNang.TabIndex = 1;
             // 
-            // panel1
+            // panel_NutMeNu
             // 
-            this.panel1.Controls.Add(this.btnMenu);
-            this.transition_Menu.SetDecoration(this.panel1, BunifuAnimatorNS.DecorationType.None);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(245, 33);
-            this.panel1.TabIndex = 1;
+            this.panel_NutMeNu.Controls.Add(this.btnMenu);
+            this.transition_Menu.SetDecoration(this.panel_NutMeNu, BunifuAnimatorNS.DecorationType.None);
+            this.panel_NutMeNu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel_NutMeNu.Location = new System.Drawing.Point(0, 0);
+            this.panel_NutMeNu.Name = "panel_NutMeNu";
+            this.panel_NutMeNu.Size = new System.Drawing.Size(245, 33);
+            this.panel_NutMeNu.TabIndex = 1;
             // 
             // btnMenu
             // 
@@ -197,7 +199,7 @@
             this.btnHeThong.IconVisible = true;
             this.btnHeThong.IconZoom = 60D;
             this.btnHeThong.IsTab = false;
-            this.btnHeThong.Location = new System.Drawing.Point(0, 432);
+            this.btnHeThong.Location = new System.Drawing.Point(0, 478);
             this.btnHeThong.Name = "btnHeThong";
             this.btnHeThong.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
             this.btnHeThong.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
@@ -233,7 +235,7 @@
             this.btnThanhToan.IconVisible = true;
             this.btnThanhToan.IconZoom = 60D;
             this.btnThanhToan.IsTab = false;
-            this.btnThanhToan.Location = new System.Drawing.Point(0, 385);
+            this.btnThanhToan.Location = new System.Drawing.Point(0, 431);
             this.btnThanhToan.Name = "btnThanhToan";
             this.btnThanhToan.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
             this.btnThanhToan.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
@@ -269,7 +271,7 @@
             this.btnThongKe.IconVisible = true;
             this.btnThongKe.IconZoom = 60D;
             this.btnThongKe.IsTab = false;
-            this.btnThongKe.Location = new System.Drawing.Point(0, 340);
+            this.btnThongKe.Location = new System.Drawing.Point(0, 386);
             this.btnThongKe.Name = "btnThongKe";
             this.btnThongKe.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
             this.btnThongKe.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
@@ -305,7 +307,7 @@
             this.btnDonThuoc.IconVisible = true;
             this.btnDonThuoc.IconZoom = 60D;
             this.btnDonThuoc.IsTab = false;
-            this.btnDonThuoc.Location = new System.Drawing.Point(0, 293);
+            this.btnDonThuoc.Location = new System.Drawing.Point(0, 339);
             this.btnDonThuoc.Name = "btnDonThuoc";
             this.btnDonThuoc.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
             this.btnDonThuoc.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
@@ -341,7 +343,7 @@
             this.btnDichVu.IconVisible = true;
             this.btnDichVu.IconZoom = 60D;
             this.btnDichVu.IsTab = false;
-            this.btnDichVu.Location = new System.Drawing.Point(0, 246);
+            this.btnDichVu.Location = new System.Drawing.Point(0, 292);
             this.btnDichVu.Name = "btnDichVu";
             this.btnDichVu.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
             this.btnDichVu.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
@@ -377,7 +379,7 @@
             this.btnQuanLyNVBS.IconVisible = true;
             this.btnQuanLyNVBS.IconZoom = 60D;
             this.btnQuanLyNVBS.IsTab = false;
-            this.btnQuanLyNVBS.Location = new System.Drawing.Point(0, 199);
+            this.btnQuanLyNVBS.Location = new System.Drawing.Point(0, 245);
             this.btnQuanLyNVBS.Name = "btnQuanLyNVBS";
             this.btnQuanLyNVBS.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
             this.btnQuanLyNVBS.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
@@ -413,7 +415,7 @@
             this.btnQuanLyThuoc.IconVisible = true;
             this.btnQuanLyThuoc.IconZoom = 60D;
             this.btnQuanLyThuoc.IsTab = false;
-            this.btnQuanLyThuoc.Location = new System.Drawing.Point(0, 152);
+            this.btnQuanLyThuoc.Location = new System.Drawing.Point(0, 198);
             this.btnQuanLyThuoc.Name = "btnQuanLyThuoc";
             this.btnQuanLyThuoc.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
             this.btnQuanLyThuoc.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
@@ -449,7 +451,7 @@
             this.btnQuanLyLichHen.IconVisible = true;
             this.btnQuanLyLichHen.IconZoom = 60D;
             this.btnQuanLyLichHen.IsTab = false;
-            this.btnQuanLyLichHen.Location = new System.Drawing.Point(0, 105);
+            this.btnQuanLyLichHen.Location = new System.Drawing.Point(0, 151);
             this.btnQuanLyLichHen.Name = "btnQuanLyLichHen";
             this.btnQuanLyLichHen.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
             this.btnQuanLyLichHen.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
@@ -485,7 +487,7 @@
             this.btnQuanLyBenhNhan.IconVisible = true;
             this.btnQuanLyBenhNhan.IconZoom = 60D;
             this.btnQuanLyBenhNhan.IsTab = false;
-            this.btnQuanLyBenhNhan.Location = new System.Drawing.Point(0, 58);
+            this.btnQuanLyBenhNhan.Location = new System.Drawing.Point(0, 104);
             this.btnQuanLyBenhNhan.Name = "btnQuanLyBenhNhan";
             this.btnQuanLyBenhNhan.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
             this.btnQuanLyBenhNhan.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
@@ -513,22 +515,58 @@
             // 
             this.transition_Menu.AnimationType = BunifuAnimatorNS.AnimationType.VertSlide;
             this.transition_Menu.Cursor = null;
-            animation1.AnimateOnlyDifferences = true;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(0);
-            animation1.RotateCoeff = 0F;
-            animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 0F;
-            this.transition_Menu.DefaultAnimation = animation1;
+            animation4.AnimateOnlyDifferences = true;
+            animation4.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.BlindCoeff")));
+            animation4.LeafCoeff = 0F;
+            animation4.MaxTime = 1F;
+            animation4.MinTime = 0F;
+            animation4.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicCoeff")));
+            animation4.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicShift")));
+            animation4.MosaicSize = 0;
+            animation4.Padding = new System.Windows.Forms.Padding(0);
+            animation4.RotateCoeff = 0F;
+            animation4.RotateLimit = 0F;
+            animation4.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.ScaleCoeff")));
+            animation4.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.SlideCoeff")));
+            animation4.TimeCoeff = 0F;
+            animation4.TransparencyCoeff = 0F;
+            this.transition_Menu.DefaultAnimation = animation4;
+            // 
+            // btn_home
+            // 
+            this.btn_home.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(34)))), ((int)(((byte)(82)))));
+            this.btn_home.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(34)))), ((int)(((byte)(82)))));
+            this.btn_home.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_home.BorderRadius = 0;
+            this.btn_home.ButtonText = "    Home";
+            this.btn_home.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.transition_Menu.SetDecoration(this.btn_home, BunifuAnimatorNS.DecorationType.None);
+            this.btn_home.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_home.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_home.Iconimage = ((System.Drawing.Image)(resources.GetObject("btn_home.Iconimage")));
+            this.btn_home.Iconimage_right = null;
+            this.btn_home.Iconimage_right_Selected = null;
+            this.btn_home.Iconimage_Selected = null;
+            this.btn_home.IconMarginLeft = 0;
+            this.btn_home.IconMarginRight = 0;
+            this.btn_home.IconRightVisible = true;
+            this.btn_home.IconRightZoom = 0D;
+            this.btn_home.IconVisible = true;
+            this.btn_home.IconZoom = 60D;
+            this.btn_home.IsTab = false;
+            this.btn_home.Location = new System.Drawing.Point(0, 57);
+            this.btn_home.Name = "btn_home";
+            this.btn_home.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
+            this.btn_home.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
+            this.btn_home.OnHoverTextColor = System.Drawing.Color.White;
+            this.btn_home.selected = true;
+            this.btn_home.Size = new System.Drawing.Size(245, 41);
+            this.btn_home.TabIndex = 2;
+            this.btn_home.Text = "    Home";
+            this.btn_home.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_home.Textcolor = System.Drawing.Color.LightGray;
+            this.btn_home.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_home.Click += new System.EventHandler(this.btn_home_Click);
             // 
             // FrmMain
             // 
@@ -549,7 +587,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
             this.panel_ChucNang.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
+            this.panel_NutMeNu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).EndInit();
             this.ResumeLayout(false);
 
@@ -577,6 +615,7 @@
         private Bunifu.Framework.UI.BunifuFlatButton btnThanhToan;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private BunifuAnimatorNS.BunifuTransition transition_Menu;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel_NutMeNu;
+        private Bunifu.Framework.UI.BunifuFlatButton btn_home;
     }
 }

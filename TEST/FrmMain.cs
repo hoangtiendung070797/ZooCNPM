@@ -88,13 +88,17 @@ namespace TEST
             }
             else
             {
-                
-                //transition_Menu.HideSync(panel_ChucNang);
+                                
                 panel_ChucNang.Visible = false;
                 panel_ChucNang.Width = 42;
                 transition_Menu.ShowSync(panel_ChucNang);
 
             }
-        }    
+        }
+
+        private void btn_home_Click(object sender, EventArgs e)
+        {
+            panel_Select.Top = btn_home.Top;
+        }
     }
 }
