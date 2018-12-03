@@ -10,16 +10,20 @@ using System.Windows.Forms;
 
 namespace TEST
 {
-    public partial class temp : Form
+    public partial class Frm_EditThuoc : Form
     {
-        public temp()
+        public Frm_EditThuoc()
         {
             InitializeComponent();
         }
 
-        private void temp_Load(object sender, EventArgs e)
+        private void bunifuImageButton1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD:TEST/temp.cs
             
+=======
+            this.Close();
+>>>>>>> 65d22c44acb67e470a71b9d65d87524ee2a6dfbf:TEST/Frm_EditThuoc.cs
         }
     }
 }

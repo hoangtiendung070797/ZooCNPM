@@ -61,11 +61,10 @@
     <Compile Include="FrmMain.Designer.cs">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="temp.cs">
+    <Compile Include="Frm_AddThuoc.cs">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="temp.Designer.cs">
       <DependentUpon>temp.cs</DependentUpon>
     </Compile>
@@ -77,10 +76,19 @@
     </Compile>
     <Compile Include="UserControl_QuanLyNhanVienBacSi.cs">
       <SubType>UserControl</SubType>
+=======
+    <Compile Include="Frm_AddThuoc.Designer.cs">
+      <DependentUpon>Frm_AddThuoc.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControl_QuanLyNhanVienBacSi.Designer.cs">
-      <DependentUpon>UserControl_QuanLyNhanVienBacSi.cs</DependentUpon>
+    <Compile Include="Frm_EditThuoc.cs">
+      <SubType>Form</SubType>
+>>>>>>> 65d22c44acb67e470a71b9d65d87524ee2a6dfbf
     </Compile>
+    <Compile Include="Frm_EditThuoc.Designer.cs">
+      <DependentUpon>Frm_EditThuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserControl_QuanLyThuoc.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -93,6 +101,12 @@
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_AddThuoc.resx">
+      <DependentUpon>Frm_AddThuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_EditThuoc.resx">
+      <DependentUpon>Frm_EditThuoc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -102,6 +116,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <EmbeddedResource Include="temp.resx">
       <DependentUpon>temp.cs</DependentUpon>
     </EmbeddedResource>
@@ -111,6 +126,8 @@
     <EmbeddedResource Include="UserControl_QuanLyNhanVienBacSi.resx">
       <DependentUpon>UserControl_QuanLyNhanVienBacSi.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> 65d22c44acb67e470a71b9d65d87524ee2a6dfbf
     <EmbeddedResource Include="UserControl_QuanLyThuoc.resx">
       <DependentUpon>UserControl_QuanLyThuoc.cs</DependentUpon>
     </EmbeddedResource>

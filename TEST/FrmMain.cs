@@ -90,8 +90,7 @@ namespace TEST
             }
             else
             {
-                
-                //transition_Menu.HideSync(panel_ChucNang);
+                                
                 panel_ChucNang.Visible = false;
                 panel_ChucNang.Width = 42;
                 transition_Menu.ShowSync(panel_ChucNang);
@@ -99,6 +98,7 @@ namespace TEST
             }
         }
 
+<<<<<<< HEAD
         private void btnQuanLyLichHen_Click(object sender, EventArgs e)
         {
             panel_HienThi.Controls.Clear();
@@ -106,6 +106,11 @@ namespace TEST
             panel_HienThi.Controls.Add(u);
             u.Dock = DockStyle.Fill;
 
+=======
+        private void btn_home_Click(object sender, EventArgs e)
+        {
+            panel_Select.Top = btn_home.Top;
+>>>>>>> 65d22c44acb67e470a71b9d65d87524ee2a6dfbf
         }
     }
 }
