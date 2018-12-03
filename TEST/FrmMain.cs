@@ -36,10 +36,12 @@ namespace TEST
         private void bunifuFlatButton2_Click(object sender, EventArgs e)
         {
             panel_Select.Top = btnQuanLyLichHen.Top;
+            
         }
 
         private void btnQuanLyThuoc_Click(object sender, EventArgs e)
         {
+            panel_HienThi.Controls.Clear();
             panel_Select.Top = btnQuanLyThuoc.Top;
             UserControl_QuanLyThuoc userControl_QuanLyThuoc = new UserControl_QuanLyThuoc();
             panel_HienThi.Controls.Add(userControl_QuanLyThuoc);
@@ -95,6 +97,15 @@ namespace TEST
                 transition_Menu.ShowSync(panel_ChucNang);
 
             }
+        }
+
+        private void btnQuanLyLichHen_Click(object sender, EventArgs e)
+        {
+            panel_HienThi.Controls.Clear();
+            UserControl_LichHen u = new UserControl_LichHen();
+            panel_HienThi.Controls.Add(u);
+            u.Dock = DockStyle.Fill;
+
         }
     }
 }

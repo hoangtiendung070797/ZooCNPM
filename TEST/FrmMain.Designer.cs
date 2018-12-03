@@ -37,6 +37,8 @@
             this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel_ChucNang = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnMenu = new Bunifu.Framework.UI.BunifuImageButton();
             this.panel_Select = new System.Windows.Forms.Panel();
             this.btnHeThong = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnThanhToan = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -47,17 +49,15 @@
             this.btnQuanLyThuoc = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnQuanLyLichHen = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnQuanLyBenhNhan = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btnMenu = new Bunifu.Framework.UI.BunifuImageButton();
             this.panel_HienThi = new System.Windows.Forms.Panel();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.transition_Menu = new BunifuAnimatorNS.BunifuTransition(this.components);
-            this.panel1 = new System.Windows.Forms.Panel();
             this.panel_Title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
             this.panel_ChucNang.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -139,6 +139,32 @@
             this.panel_ChucNang.Name = "panel_ChucNang";
             this.panel_ChucNang.Size = new System.Drawing.Size(245, 634);
             this.panel_ChucNang.TabIndex = 1;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.btnMenu);
+            this.transition_Menu.SetDecoration(this.panel1, BunifuAnimatorNS.DecorationType.None);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(245, 33);
+            this.panel1.TabIndex = 1;
+            // 
+            // btnMenu
+            // 
+            this.btnMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
+            this.transition_Menu.SetDecoration(this.btnMenu, BunifuAnimatorNS.DecorationType.None);
+            this.btnMenu.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnMenu.Image")));
+            this.btnMenu.ImageActive = null;
+            this.btnMenu.Location = new System.Drawing.Point(204, 0);
+            this.btnMenu.Name = "btnMenu";
+            this.btnMenu.Size = new System.Drawing.Size(41, 33);
+            this.btnMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnMenu.TabIndex = 0;
+            this.btnMenu.TabStop = false;
+            this.btnMenu.Zoom = 10;
+            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
             // 
             // panel_Select
             // 
@@ -435,7 +461,7 @@
             this.btnQuanLyLichHen.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnQuanLyLichHen.Textcolor = System.Drawing.Color.LightGray;
             this.btnQuanLyLichHen.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQuanLyLichHen.Click += new System.EventHandler(this.bunifuFlatButton2_Click);
+            this.btnQuanLyLichHen.Click += new System.EventHandler(this.btnQuanLyLichHen_Click);
             // 
             // btnQuanLyBenhNhan
             // 
@@ -473,22 +499,6 @@
             this.btnQuanLyBenhNhan.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanLyBenhNhan.Click += new System.EventHandler(this.bunifuFlatButton1_Click);
             // 
-            // btnMenu
-            // 
-            this.btnMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(38)))), ((int)(((byte)(51)))));
-            this.transition_Menu.SetDecoration(this.btnMenu, BunifuAnimatorNS.DecorationType.None);
-            this.btnMenu.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnMenu.Image")));
-            this.btnMenu.ImageActive = null;
-            this.btnMenu.Location = new System.Drawing.Point(204, 0);
-            this.btnMenu.Name = "btnMenu";
-            this.btnMenu.Size = new System.Drawing.Size(41, 33);
-            this.btnMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMenu.TabIndex = 0;
-            this.btnMenu.TabStop = false;
-            this.btnMenu.Zoom = 10;
-            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
-            // 
             // panel_HienThi
             // 
             this.panel_HienThi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(51)))), ((int)(((byte)(65)))));
@@ -511,7 +521,7 @@
             animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
             animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
             animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
+            animation1.Padding = new System.Windows.Forms.Padding(0);
             animation1.RotateCoeff = 0F;
             animation1.RotateLimit = 0F;
             animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
@@ -519,16 +529,6 @@
             animation1.TimeCoeff = 0F;
             animation1.TransparencyCoeff = 0F;
             this.transition_Menu.DefaultAnimation = animation1;
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.btnMenu);
-            this.transition_Menu.SetDecoration(this.panel1, BunifuAnimatorNS.DecorationType.None);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(245, 33);
-            this.panel1.TabIndex = 1;
             // 
             // FrmMain
             // 
@@ -549,8 +549,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
             this.panel_ChucNang.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).EndInit();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).EndInit();
             this.ResumeLayout(false);
 
         }

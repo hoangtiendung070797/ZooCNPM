@@ -1,66 +1,13 @@
-C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\obj\Debug\TEST.csprojAssemblyReference.cache
-C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\obj\Debug\TEST.FormLogin.resources
-C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\obj\Debug\TEST.Properties.Resources.resources
-C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\obj\Debug\TEST.csproj.GenerateResource.cache
-C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\obj\Debug\TEST.csproj.CoreCompileInputs.cache
-C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\bin\Debug\TEST.exe.config
-C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\bin\Debug\TEST.exe
-C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\bin\Debug\TEST.pdb
-C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\bin\Debug\Bunifu_UI_v1.5.3.dll
-C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\obj\Debug\TEST.csproj.CopyComplete
-C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\obj\Debug\TEST.exe
-C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\obj\Debug\TEST.pdb
-C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\obj\Debug\TEST.temp.resources
-C:\Users\Than Hoang\Source\Repos\Project_CNPM\TEST\obj\Debug\TEST.UserControl1.resources
-C:\Users\hoang\Documents\ProCNPM\TEST\bin\Debug\TEST.exe.config
-C:\Users\hoang\Documents\ProCNPM\TEST\bin\Debug\TEST.exe
-C:\Users\hoang\Documents\ProCNPM\TEST\bin\Debug\TEST.pdb
-C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.csprojAssemblyReference.cache
-C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.FormLogin.resources
-C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.FrmMain.resources
-C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.Properties.Resources.resources
-C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.temp.resources
-C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.UserControl1.resources
-C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.csproj.GenerateResource.cache
-C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.csproj.CoreCompileInputs.cache
-C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.csproj.CopyComplete
-C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.exe
-C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.pdb
-C:\Users\hoang\Documents\ProCNPM\TEST\obj\Debug\TEST.UserControl_QuanLyThuoc.resources
-<<<<<<< HEAD
-C:\Users\hoang\Documents\ZooCNPM\TEST\bin\Debug\TEST.exe.config
-C:\Users\hoang\Documents\ZooCNPM\TEST\bin\Debug\TEST.exe
-C:\Users\hoang\Documents\ZooCNPM\TEST\bin\Debug\TEST.pdb
-C:\Users\hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.csprojAssemblyReference.cache
-C:\Users\hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.FormLogin.resources
-C:\Users\hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.FrmMain.resources
-C:\Users\hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.Properties.Resources.resources
-C:\Users\hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.temp.resources
-C:\Users\hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.UserControl1.resources
-C:\Users\hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.UserControl_QuanLyNhanVienBacSi.resources
-C:\Users\hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.UserControl_QuanLyThuoc.resources
-C:\Users\hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.csproj.GenerateResource.cache
-C:\Users\hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.csproj.CoreCompileInputs.cache
-C:\Users\hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.csproj.CopyComplete
-C:\Users\hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.exe
-C:\Users\hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.pdb
-=======
-C:\Users\Than Hoang\Documents\ZooCNPM\TEST\bin\Debug\TEST.exe.config
-C:\Users\Than Hoang\Documents\ZooCNPM\TEST\bin\Debug\TEST.exe
-C:\Users\Than Hoang\Documents\ZooCNPM\TEST\bin\Debug\TEST.pdb
-C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.csprojAssemblyReference.cache
-C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.FormLogin.resources
-C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.FrmMain.resources
-C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.Properties.Resources.resources
-C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.temp.resources
-C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.UserControl1.resources
-C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.UserControl_QuanLyThuoc.resources
-C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.csproj.GenerateResource.cache
-C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.csproj.CoreCompileInputs.cache
-C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.csproj.CopyComplete
-C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.exe
-C:\Users\Than Hoang\Documents\ZooCNPM\TEST\obj\Debug\TEST.pdb
->>>>>>> 5f7427ea1ae2611f44ea766d14c1abcc3f3cf825
 C:\Users\Administrator\Documents\ZooCNPM\TEST\bin\Debug\TEST.exe.config
+C:\Users\Administrator\Documents\ZooCNPM\TEST\bin\Debug\TEST.exe
+C:\Users\Administrator\Documents\ZooCNPM\TEST\bin\Debug\TEST.pdb
+C:\Users\Administrator\Documents\ZooCNPM\TEST\obj\Debug\TEST.FormLogin.resources
+C:\Users\Administrator\Documents\ZooCNPM\TEST\obj\Debug\TEST.FrmMain.resources
+C:\Users\Administrator\Documents\ZooCNPM\TEST\obj\Debug\TEST.Properties.Resources.resources
+C:\Users\Administrator\Documents\ZooCNPM\TEST\obj\Debug\TEST.temp.resources
+C:\Users\Administrator\Documents\ZooCNPM\TEST\obj\Debug\TEST.UserControl_LichHen.resources
+C:\Users\Administrator\Documents\ZooCNPM\TEST\obj\Debug\TEST.UserControl_QuanLyNhanVienBacSi.resources
+C:\Users\Administrator\Documents\ZooCNPM\TEST\obj\Debug\TEST.UserControl_QuanLyThuoc.resources
+C:\Users\Administrator\Documents\ZooCNPM\TEST\obj\Debug\TEST.csproj.GenerateResource.Cache
 C:\Users\Administrator\Documents\ZooCNPM\TEST\obj\Debug\TEST.exe
 C:\Users\Administrator\Documents\ZooCNPM\TEST\obj\Debug\TEST.pdb

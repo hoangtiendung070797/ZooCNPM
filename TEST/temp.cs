@@ -19,9 +19,7 @@ namespace TEST
 
         private void temp_Load(object sender, EventArgs e)
         {
-            UserControl1 userControl1 = new UserControl1();
             
-            this.Controls.Add(userControl1);
         }
     }
 }
